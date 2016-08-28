@@ -8,10 +8,6 @@
     -o-transform: translate(-50%,-50%);
     transform: translate(-50%,-50%);
 }
-.text{
-    margin-top: 60px;
-    float: right;
-}
 #gitimage{
     opacity: 0.45;
     transition: opacity 0.3s ease-in-out;
@@ -37,11 +33,17 @@
         opacity: 0.5;
         margin:0px;
     }
-}
-@media (max-width: 789x){
-    .bracket {
-        overflow:hidden;
-        font-size:0px;
+    .text{
+        margin-top: 60px;
+        float: right;
     }
 }
 /*Smaller than 790 width screen and it needs to go away*/
+@media all and (max-width: 789px){
+    .bracket {
+        display: none !important;
+    }
+    .text{
+        margin-top: 60px;
+    }
+}
