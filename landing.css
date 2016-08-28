@@ -1,35 +1,47 @@
-div.main{
+.center{
     position: fixed;
-    top: 50%;
+    top: 35%;
     left: 50%;
-    width: auto;
-    height: auto;
     -webkit-transform: translate(-50%,-50%);
     -moz-transform: translate(-50%,-50%);
     -ms-transform: translate(-50%,-50%);
     -o-transform: translate(-50%,-50%);
     transform: translate(-50%,-50%);
 }
+.text{
+    margin-top: 60px;
+    float: right;
+}
 #gitimage{
-    opacity: 0.5;
+    opacity: 0.45;
     transition: opacity 0.3s ease-in-out;
 }#gitimage:hover{
     opacity: 1;
     transition: opacity 0.3s ease-in-out;
 }
-h1.title{
+.title{
     font-family: 'Montserrat', sans-sarif;
     font-size: 45px;
     text-shadow: 2px 2px 12px #B7C6C6;
-    padding: 2px;
-    margin: 0px;
-    line-height:100%
+    margin:0px;
 }
-p.sub{
+.sub{
     font-family: 'Roboto', sans-sarif;
     font-size: 30px;
-    text-shadow: 2px 2px 9px #B7C6C6;
-    padding: 2px;
-    margin: 0px;
-    line-height:95%
+    margin:0px;
 }
+@media (min-width: 790px){
+    .bracket {
+        font-family: 'Montserrat', sans-sarif;
+        font-size: 210px;
+        opacity: 0.5;
+        margin:0px;
+    }
+}
+@media (max-width: 789x){
+    .bracket {
+        overflow:hidden;
+        font-size:0px;
+    }
+}
+/*Smaller than 650 width screen and it needs to go away*/
