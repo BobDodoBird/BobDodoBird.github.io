@@ -1,0 +1,27 @@
+div.main{
+    text-align: center;
+    margin-top: 80px;
+}
+#gitimage{
+    opacity: 0.5;
+    transition: opacity 0.3s ease-in-out;
+}#gitimage:hover{
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out;
+}
+h1.title{
+    font-family: 'Montserrat', sans-sarif;
+    font-size: 45px;
+    text-shadow: 2px 2px 12px #B7C6C6;
+    padding: 2px;
+    margin: 0px;
+    line-height:100%
+}
+p.sub{
+    font-family: 'Roboto', sans-sarif;
+    font-size: 30px;
+    text-shadow: 2px 2px 9px #B7C6C6;
+    padding: 2px;
+    margin: 0px;
+    line-height:95%
+}
