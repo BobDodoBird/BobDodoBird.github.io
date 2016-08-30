@@ -11,9 +11,11 @@
 #gitimage{
     opacity: 0.45;
     transition: opacity 0.3s ease-in-out;
+    -webkit-backface-visibility: hidden;
 }#gitimage:hover{
     opacity: 1;
     transition: opacity 0.3s ease-in-out;
+    -webkit-backface-visibility: hidden;
 }
 .title{
     font-family: 'Montserrat', sans-sarif;
