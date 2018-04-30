@@ -35,7 +35,7 @@
 
 
 /* Media Queries */
-@media (min-width: 790px) {
+@media only screen and (min-width: 790px) {
   .bracket {
     font-family: 'Montserrat', serif;
     font-size: 210px;
@@ -46,8 +46,8 @@
     float: right;
   }
 }
-/*Smaller than 790 width screen and it needs to go away*/
-@media all and (max-width: 789px) {
+/*Smaller than 825 width screen and it needs to go away*/
+@media only screen and (max-width: 824px) {
   .bracket {
     display: none !important;
   }
